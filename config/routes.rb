@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  # change the rails welcome page to app/views/articles/index.html.erb
+  root 'articles#index'
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  # when the user get to /articles/
+  # redirec to articles controller with index action
+  get 'articles', to: 'articles#index'
 end

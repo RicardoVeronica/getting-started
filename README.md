@@ -32,7 +32,7 @@ Once you have the prerequisites set up, follow these steps to run the project:
 1. Clone this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/RicardoVeronica/getting_started.git
+git clone https://github.com/RicardoVeronica/getting-started
 ```
 
 2. Change directory to the project folder:
