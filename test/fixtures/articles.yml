@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+article_one:
+  title: First article
+  body: This is the body of the first article
+
+article_two:
+  title: Second article
+  body: This is the body of the second article

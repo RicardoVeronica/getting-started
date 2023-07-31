@@ -2,11 +2,13 @@
 
 # Ruby on Rails Blog Project
 
+![Rails tutorial](https://guides.rubyonrails.org/v6.1/getting_started.html)
+
+## Software version
+
 ![Ruby version](https://img.shields.io/badge/Ruby-3.1.1p18-red)
 ![Rails version](https://img.shields.io/badge/Rails-6.1.7.4-orange)
 ![SQLite version](https://img.shields.io/badge/SQLite-3.1.4-blue)
-
-This is the documentation for the Ruby on Rails Blog project. The project is built using Ruby version 3.1.1p18, managed by asdf, and utilizes Rails version 6.1.7.4 as the web framework along with SQLite version 3.1.4 as the database.
 
 ## Description
 

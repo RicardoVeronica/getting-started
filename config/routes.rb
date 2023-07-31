@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   # change the rails welcome page to app/views/articles/index.html.erb
   root 'articles#index'
 
-  # when the user get to /articles/
+  # when user gets /articles/
   # redirec to articles controller with index action
   get 'articles', to: 'articles#index'
 end

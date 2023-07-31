@@ -8,5 +8,7 @@ class ArticlesController < ApplicationController
     #   mame: 'Jane Doe',
     #   email: 'jane@mail.com'
     # }
+
+    @articles = Article.all
   end
 end
