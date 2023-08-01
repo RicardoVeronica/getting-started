@@ -5,7 +5,5 @@ Rails.application.routes.draw do
   # when user gets /articles/
   # redirec to articles controller with index action
 
-  # get 'articles', to: 'articles#index'
-  # get 'articles/:id', to: 'articles#show'
   resources :articles
 end
