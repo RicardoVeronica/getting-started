@@ -43,7 +43,7 @@ git clone https://github.com/RicardoVeronica/getting-started
 2. Change directory to the project folder:
 
 ```bash
-cd
+cd getting-started
 ```
 
 3. Install the required gems:
@@ -101,4 +101,5 @@ The Ruby on Rails Blog project is open-source software released under the [MIT L
 
 Special thanks to the Ruby and Ruby on Rails communities for their valuable contributions and support.
 
-If you have any questions or need further assistance, please contact: ricardo_veronica.duran@hotmail.com
+If you have any questions or need further assistance, please go to:
+[Rails Forum](https://discuss.rubyonrails.org/)
