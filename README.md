@@ -12,7 +12,10 @@
 
 ## Description
 
-The Ruby on Rails Blog project is a simple blog web application that allows users to create, edit, and delete blog posts. It also includes user authentication, allowing registered users to create and manage their posts.
+The Ruby on Rails Blog project is a simple blog web application that allows
+users to create, edit, and delete blog posts. It also includes basic user
+authentication, with http_basic_authenticate_with method.
+Use the [Simple.css Framework](https://simplecss.org/)
 
 ## What you will learn
 

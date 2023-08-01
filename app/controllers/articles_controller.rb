@@ -1,14 +1,7 @@
 class ArticlesController < ApplicationController
+  http_basic_authenticate_with name: 'ricardoveronica', password: 'secret', except: %I[index show]
+
   def index
-    # when is empty the default view is the name of the method
-
-    # render plain: 'This is just plain text'
-
-    # render json: {
-    #   mame: 'Jane Doe',
-    #   email: 'jane@mail.com'
-    # }
-
     @articles = Article.all
   end
 
