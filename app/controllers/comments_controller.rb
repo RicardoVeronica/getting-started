@@ -1,4 +1,5 @@
 class CommentsController < ApplicationController
+  before_action :find_article, only: %I[create destroy]
   http_basic_authenticate_with name: 'ricardoveronica', password: 'secret', only: :destroy
 
   def create
@@ -20,5 +21,9 @@ class CommentsController < ApplicationController
 
   def comment_params
     params.require(:comment).permit(:commenter, :body, :status)
+  end
+
+  def find_article
+    @article = Article.find(params[:article_id])
   end
 end
