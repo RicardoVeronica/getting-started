@@ -2,7 +2,7 @@
 
 # Ruby on Rails Blog Project
 
-![Rails tutorial](https://guides.rubyonrails.org/v6.1/getting_started.html)
+[Rails tutorial](https://guides.rubyonrails.org/v6.1/getting_started.html)
 
 ## Software version
 
